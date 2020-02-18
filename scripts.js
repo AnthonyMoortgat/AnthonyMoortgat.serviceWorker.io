@@ -1,3 +1,5 @@
+console.log("Test");
+
 // ServiceWorker is a progressive technology. Ignore unsupported browsers
 if ('serviceWorker' in navigator) {
 	console.log('CLIENT: service worker registration in progress.');
